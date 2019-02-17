@@ -1,0 +1,21 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  application:
+    name: sentinel-nacos-demo
+  cloud:
+    sentinel:
+      transport:
+        dashboard: sentinel-dashboard:8080
+      eager: true
+      datasource:
+        ds1:
+          nacos:
+            server-addr: nacos-server:8848
+            groupId: DEFAULT_GROUP
+            dataId: sentinel-nacos-demo
+            data-type: json
