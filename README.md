@@ -1,4 +1,4 @@
-#sentinel-nacos-demo
+# sentinel-nacos-demo
 
 #### build images:
 mvn clean install docker:build
