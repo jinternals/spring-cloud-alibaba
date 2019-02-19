@@ -11,3 +11,10 @@ docker-compose stop
 
 #### remove containers:
 docker-compose rm
+
+
+
+
+# important links:
+
+https://github.com/spring-cloud-incubator/spring-cloud-alibaba/issues/356
