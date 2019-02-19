@@ -2,9 +2,9 @@ version: '3.5'
 
 services:
 
-  spring-cloud-alibaba-sentinel:
-    image: jinternals/spring-cloud-alibaba-sentinel
-    container_name: spring-cloud-alibaba-sentinel
+  sentinel-nacos-demo:
+    image: jinternals/sentinel-nacos-demo
+    container_name: sentinel-nacos-demo
     ports:
       - 8080:8080
     depends_on:
